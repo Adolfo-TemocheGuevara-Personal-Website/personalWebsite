@@ -1,0 +1,138 @@
+.iPage{
+    background-color: skyblue;
+}
+
+.head{
+    font-size: 2rem;
+    text-align: right;
+}
+
+.title{
+    text-align: center;
+    background-color: crimson;
+}
+
+.info{
+    text-align: center;
+}
+
+/*index page picture of background*/
+.pic1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    padding: 0.5%;
+}
+
+.aPage{
+    background-color: lightseagreen;
+}
+
+.pic2{
+    width: 30%;
+    height: auto;
+}
+
+.dogs{
+    text-align: center;
+    padding: 0.5%;
+    background-color: aqua;
+    font-size: 20px;
+}
+
+.pic3{
+    width: 30%;
+    height: 40%;
+}
+
+.games{
+   text-align: center;
+   padding: 0.5%;
+   background-color: darkorange;
+   font-size: 20px;
+  
+}
+
+.pic4{
+    width: 30%;
+    height: auto;
+}
+
+.excercise{
+    text-align: center;
+    padding: 0.5%;
+    background-color: forestgreen;
+    font-size: 20px;
+}
+
+.pPage{
+    background-color: orange;
+}
+
+.firstP{
+    background-color: yellow;
+    font-size: 20px;
+    text-align: justify;
+    padding: 5%;
+}
+
+.fpPic{
+            width: 300px;
+            height: 200px;
+            border-radius: 10%;
+            float: left;
+            padding: 0.5%;
+              
+            /* Change the shape according
+                to the image */
+            shape-outside: square();
+            background-color: aqua;
+            color: white;
+}
+
+.secondP{
+    background-color: green;
+    font-size: 20px;
+    text-align: justify;
+    padding: 5%;
+    
+}
+
+.spPic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: right;
+    padding: 0.5%;
+      
+    /* Change the shape according
+        to the image */
+    shape-outside: circle();
+    background-color: black;
+    color: white;
+}
+
+
+.thirdP{
+    background-color: purple;
+    font-size: 20px;
+    text-align: justify;
+    padding: 5%;
+}
+
+.tpPic{
+    width: 300px;
+    height: 200px;
+    border-radius: 400%;
+    float: left;
+    padding: 0.5%;
+      
+    /* Change the shape according
+        to the image */
+    shape-outside: ellipse();
+    background-color: peachpuff;
+    color: white;
+}
