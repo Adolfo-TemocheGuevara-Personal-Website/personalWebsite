@@ -1,17 +1,44 @@
+/*this deals with the index html page as a whole*/
 .iPage{
     background-color: skyblue;
+    background-image: url(https://cdn.mos.cms.futurecdn.net/9UmWCbyxpKaEGXjwFG7dXo.jpg);
+    color: white;
 }
 
+/*this is deals with the head part of the pages to make a consistent header: name and links*/
 .head{
     font-size: 2rem;
     text-align: right;
 }
 
+/*color of the name of the person's website*/
+.name{
+    color: white;
+}
+
+/*color of the index/home link*/
+.link1{
+    color: aqua;
+}
+
+/*color of the about link*/
+.link2{
+    color: aqua;
+}
+
+/*color of the portfolio link*/
+.link3{
+    color: aqua;
+}
+
+
+/*title banner through all the pages*/
 .title{
     text-align: center;
     background-color: crimson;
 }
 
+/*the quote of the index/home page*/
 .info{
     text-align: center;
 }
@@ -27,51 +54,65 @@
     padding: 0.5%;
 }
 
+/*the about page class*/
 .aPage{
-    background-color: lightseagreen;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkVWoaI8-z21FnG-u69m-7EYoNui6wMku0MQ&usqp=CAU);
 }
 
+/*the dog image in the about page*/
 .pic2{
     width: 30%;
     height: auto;
 }
 
+/*the dogs section in the about page */
 .dogs{
     text-align: center;
     padding: 0.5%;
+    margin: 5%;
+    color: purple;
     background-color: aqua;
     font-size: 20px;
 }
 
+/*the tech image in the about page*/
 .pic3{
     width: 30%;
     height: 40%;
 }
 
-.games{
+/*the tech section in the about page*/
+.tech{
    text-align: center;
    padding: 0.5%;
+   margin: 5%;
+   color: crimson;
    background-color: darkorange;
    font-size: 20px;
   
 }
 
+/*the excercise image in the about page*/
 .pic4{
     width: 30%;
     height: auto;
 }
 
+/*the excercise section in the about page*/
 .excercise{
     text-align: center;
     padding: 0.5%;
+    margin: 5%;
     background-color: forestgreen;
     font-size: 20px;
 }
 
+/*the portfolio page class*/
 .pPage{
     background-color: orange;
 }
 
+/*the first project section*/
 .firstP{
     background-color: yellow;
     font-size: 20px;
@@ -79,6 +120,7 @@
     padding: 5%;
 }
 
+/*the first profile picture*/
 .fpPic{
             width: 300px;
             height: 200px;
@@ -86,13 +128,12 @@
             float: left;
             padding: 0.5%;
               
-            /* Change the shape according
-                to the image */
-            shape-outside: square();
+            shape-outside: square(); /*changes the shape of the image*/
             background-color: aqua;
             color: white;
 }
 
+/*the second project section*/
 .secondP{
     background-color: green;
     font-size: 20px;
@@ -101,6 +142,7 @@
     
 }
 
+/*the second profile picture*/
 .spPic{
     width: 200px;
     height: 200px;
@@ -108,14 +150,12 @@
     float: right;
     padding: 0.5%;
       
-    /* Change the shape according
-        to the image */
-    shape-outside: circle();
+    shape-outside: circle(); /*changes the shape of the image*/
     background-color: black;
     color: white;
 }
 
-
+/*the third profile section*/
 .thirdP{
     background-color: purple;
     font-size: 20px;
@@ -123,6 +163,7 @@
     padding: 5%;
 }
 
+/*the third profile picture*/
 .tpPic{
     width: 300px;
     height: 200px;
@@ -130,9 +171,8 @@
     float: left;
     padding: 0.5%;
       
-    /* Change the shape according
-        to the image */
-    shape-outside: ellipse();
+    
+    shape-outside: ellipse(); /*changes the shape of the image*/
     background-color: peachpuff;
     color: white;
 }
