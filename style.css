@@ -1,7 +1,7 @@
 /*this deals with the index html page as a whole*/
 .iPage{
     background-color: skyblue;
-    background-image: url(https://cdn.mos.cms.futurecdn.net/9UmWCbyxpKaEGXjwFG7dXo.jpg);
+    background-image: url(https://cdn.mos.cms.futurecdn.net/9UmWCbyxpKaEGXjwFG7dXo.jpg); /*background image in the homepage*/
     color: white;
 }
 
@@ -18,17 +18,17 @@
 
 /*color of the index/home link*/
 .link1{
-    color: aqua;
+    color: red;
 }
 
 /*color of the about link*/
 .link2{
-    color: aqua;
+    color: red;
 }
 
 /*color of the portfolio link*/
 .link3{
-    color: aqua;
+    color: red;
 }
 
 
@@ -86,7 +86,7 @@
    text-align: center;
    padding: 0.5%;
    margin: 5%;
-   color: crimson;
+   color: yellow;
    background-color: darkorange;
    font-size: 20px;
   
@@ -109,7 +109,7 @@
 
 /*the portfolio page class*/
 .pPage{
-    background-color: orange;
+    background-image: url(https://edtechreview.in/images/Projects_and_projectbaseddifferences_.jpg);
 }
 
 /*the first project section*/
@@ -118,6 +118,7 @@
     font-size: 20px;
     text-align: justify;
     padding: 5%;
+    margin: 10%;
 }
 
 /*the first profile picture*/
@@ -127,6 +128,7 @@
             border-radius: 10%;
             float: left;
             padding: 0.5%;
+            margin: 1%;
               
             shape-outside: square(); /*changes the shape of the image*/
             background-color: aqua;
@@ -135,10 +137,11 @@
 
 /*the second project section*/
 .secondP{
-    background-color: green;
+    background-color: blue;
     font-size: 20px;
     text-align: justify;
     padding: 5%;
+    margin: 10%;
     
 }
 
@@ -149,6 +152,7 @@
     border-radius: 50%;
     float: right;
     padding: 0.5%;
+    margin: 1%;
       
     shape-outside: circle(); /*changes the shape of the image*/
     background-color: black;
@@ -157,10 +161,11 @@
 
 /*the third profile section*/
 .thirdP{
-    background-color: purple;
+    background-color: red;
     font-size: 20px;
     text-align: justify;
     padding: 5%;
+    margin: 10%;
 }
 
 /*the third profile picture*/
@@ -170,6 +175,7 @@
     border-radius: 400%;
     float: left;
     padding: 0.5%;
+    margin: 1%;
       
     
     shape-outside: ellipse(); /*changes the shape of the image*/
