@@ -2,6 +2,9 @@
 repo for personal website
 
 
+##Update
+### The website is now more responsive(flex) as well as it now has a a contact page (contact.html), where a person is able to submit their name, email and message and I will recieve it through fromspree. Added @media selectors and added more comments. Also in my orginal project board a partner has now joined my organization and added some tasks to complete.
+
 First need to create repo in github so that it links to VS code so that you can start all of these files in that repo. Make as many branches as needed for changes
 and commits with a good description. Also when that repo is created a very detailed #Readme needs to be written explaining what is going on in this whole repo.
 This is for a personal website project that has 5 files in all. An index.html, about.html, portfolio.html, style.css and javascript.js .
