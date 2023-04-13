@@ -1,14 +1,24 @@
 /*this deals with the index html page as a whole*/
 .iPage{
+    
     background-color: skyblue;
     background-image: url(https://cdn.mos.cms.futurecdn.net/9UmWCbyxpKaEGXjwFG7dXo.jpg); /*background image in the homepage*/
     color: white;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
 }
+
 
 /*this is deals with the head part of the pages to make a consistent header: name and links*/
 .head{
     font-size: 2rem;
     text-align: right;
+
 }
 
 /*color of the name of the person's website*/
@@ -31,25 +41,67 @@
     color: red;
 }
 
+/*color of the contact us link*/
+.link4{
+    color:red;
+}
+
 
 /*title banner through all the pages*/
-.title{
-    text-align: center;
+
+/*title banner for home page*/
+.title1{
+    display: flex;
+    justify-content: center;
     background-color: crimson;
+    width: 95vw;
+    height: auto;
+}
+
+/*title banner for about page*/
+.title2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    width: 100vw;
+    position: relative;
+    left: 2%;
+    
+    
+}
+
+/*title banner for portfolio page*/
+.title3{
+    display: flex;
+    justify-content: center;
+    background-color: crimson;
+    width: auto%;
+
+}
+
+/*title banner for contact page*/
+.title4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    width: 100vw;
 }
 
 /*the quote of the index/home page*/
 .info{
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 /*index page picture of background*/
 .pic1{
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: auto;
     background-color: white;
     padding: 0.5%;
 }
@@ -57,12 +109,21 @@
 /*the about page class*/
 .aPage{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkVWoaI8-z21FnG-u69m-7EYoNui6wMku0MQ&usqp=CAU);
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 95vw;
+    height: 95vh;
 }
 
 /*the dog image in the about page*/
 .pic2{
-    width: 30%;
-    height: auto;
+  width: 30%;
+  height: auto;
+
 }
 
 /*the dogs section in the about page */
@@ -83,7 +144,7 @@
 
 /*the tech section in the about page*/
 .tech{
-   text-align: center;
+    text-align: center;
    padding: 0.5%;
    margin: 5%;
    color: yellow;
@@ -181,4 +242,80 @@
     shape-outside: ellipse(); /*changes the shape of the image*/
     background-color: peachpuff;
     color: white;
+}
+
+/*the contact overall page*/
+.contactP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*the contact header*/
+.contactH{
+    text-align: center;
+    background-color: aqua;
+}
+
+/*The contact page container*/
+.contactContainer{
+    margin: 5px 25px 5px 25px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    left: 0%;
+    z-index: -1;
+}
+
+/*the sections for the contact page*/
+.contactPage{
+    position: absolute;
+    margin: 5px;
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+}
+
+/*for the form overall in contact.html*/
+.contacts{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 4rem;
+
+}
+
+/*for the inputs in the contact page*/
+.inputs{
+
+    border: 6px solid yellow;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 14px;
+    outline: none;
+
+}
+
+/*used for the background section in contact page, specifically the section where the labels are at*/
+@media screen and (min-width: 300px) {
+    .contactPage {
+      background-color: lightgreen;
+    }
+}
+
+/*for the background color page overall in the contact page*/
+@media screen and (min-width: 300px) {
+    .contactP {
+      background-color: black;
+    }
 }
