@@ -309,11 +309,11 @@
 /*used for the background section in contact page, specifically the section where the labels are at*/
 @media screen and (min-width: 300px) {
     .contactPage {
-      background-color: lightgreen;
+      background-color: skyblue;
     }
 }
 
-/*for the background color page overall in the contact page*/
+/*for the background image in the contact page*/
 @media screen and (min-width: 300px) {
     .contactP {
       background-image: url(https://st2.depositphotos.com/1560768/5217/i/600/depositphotos_52175409-stock-photo-female-hand-touching-contact-us.jpg);
