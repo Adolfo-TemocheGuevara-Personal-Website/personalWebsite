@@ -316,6 +316,6 @@
 /*for the background color page overall in the contact page*/
 @media screen and (min-width: 300px) {
     .contactP {
-      background-color: black;
+      background-image: url(https://st2.depositphotos.com/1560768/5217/i/600/depositphotos_52175409-stock-photo-female-hand-touching-contact-us.jpg);
     }
 }
